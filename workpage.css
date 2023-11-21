@@ -1,0 +1,84 @@
+html,body{height: 100%;
+          margin: 0;}
+          
+
+header{display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-left: 240px;
+       background-color: white;
+       position: fixed;
+       top: 0;
+       width: 1955px;}
+ 
+ul{display: flex;
+   gap: 20px;} 
+
+li{list-style-type:none;}  
+
+li a{color: black;
+  text-decoration: none;}
+
+
+main{margin: 30px 240px;}
+
+.main-intro{display: flex;
+       justify-content: space-between;
+       margin-bottom: 100px;}
+
+.main-name{font-size: 60px;
+           width:360px;
+           padding-bottom: 30px;}
+
+.main-about{font-size: 32px;
+            color: #606060;
+            width:580px;
+            padding-top: 80px;}
+
+
+.project1, .project2, .project3 
+       {display: flex;
+       justify-content: space-between;
+       border-bottom: solid 1.5px #181717;
+       margin-bottom: 100px;
+       padding-bottom: 60px;}
+
+.project1-link{margin-top: 160px;}   
+.project-link{margin-top: 230px;}   
+.project1-details, .project2-details, .project3-details{width: 356px;}
+
+.image1{width: 580px ;
+        height: 380px;
+        background-image: url("img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+        background-size: cover;
+        background-position: center;}
+
+
+.image2{width: 580px ;
+       height: 380px;
+       background-image: url("img/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+       background-size: cover;
+       background-position: center;}
+
+
+.image3{width: 580px ;
+       height: 380px;
+       background-image: url("img/nikita-katsevich-QXDJGPZTwxs-unsplash.jpg");
+       background-size: cover;
+       background-position: center;}
+
+.project-name, .p1{font-size: 20px;}
+.p2{font-size: 16px;
+    margin-top: 40px;
+    color: #606060;}
+
+a{color: black;}
+
+
+footer{display:flex;
+       margin:0 240px;
+       padding-bottom: 30px;
+       justify-content: space-between;
+       align-items: center;}
+
+.footer-name{color: #2429AF;}
